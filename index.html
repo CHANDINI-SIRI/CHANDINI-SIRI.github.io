@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>Chandini | Portfolio</title>
+<title>Chandini Siri | Portfolio</title>
 
 <style>
 
 body{
 font-family: Arial, sans-serif;
 margin:0;
-background:#f4f6fb;
-color:#333;
+background:#f5f5f5;
 }
 
 header{
@@ -26,15 +24,21 @@ font-size:40px;
 }
 
 header p{
-margin-top:10px;
 font-size:18px;
-color:#d1d5db;
+}
+
+.container{
+width:80%;
+margin:auto;
+padding:20px;
 }
 
 section{
-max-width:900px;
-margin:auto;
-padding:40px;
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:8px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
 }
 
 h2{
@@ -43,47 +47,28 @@ border-left:5px solid #3b82f6;
 padding-left:10px;
 }
 
-.project-card{
-background:white;
-padding:20px;
-margin-bottom:20px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+ul{
+line-height:30px;
 }
 
-.project-card a{
+a{
+color:#10b981;
 text-decoration:none;
-color:#2563eb;
 font-weight:bold;
 }
 
-.skills{
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-}
-
-.skill{
-background:#e0e7ff;
-padding:10px 15px;
-border-radius:6px;
-}
-
-.contact a{
-text-decoration:none;
-color:#2563eb;
+a:hover{
+text-decoration:underline;
 }
 
 footer{
 text-align:center;
 padding:20px;
-background:#1f2937;
-color:white;
-margin-top:40px;
+margin-top:20px;
+color:#777;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -93,66 +78,57 @@ margin-top:40px;
 <p>Aspiring Software Engineer | Java Developer | DSA Learner</p>
 </header>
 
+<div class="container">
+
 <section>
-
 <h2>About Me</h2>
-
 <p>
-I am an aspiring software engineer passionate about Java development,
-data structures, and system design. I enjoy building practical
-applications and continuously exploring new technologies to improve my
-development skills.
+I am an aspiring software engineer passionate about Java development, data structures, and system design.
+I enjoy building practical applications and continuously exploring new technologies to improve my development skills.
 </p>
+</section>
 
+<section>
 <h2>Projects</h2>
 
-<div class="project-card">
 <h3>Mini Authentication System</h3>
 
 <p>
-A Java-based authentication system implementing user registration,
-login validation, password hashing, and OTP generation using core Java
-concepts and Java Swing.
+A Java-based authentication system implementing user registration, login validation,
+password hashing, and OTP generation using core Java concepts and Java Swing.
 </p>
 
-<a href="https://github.com/CHANDINI-SIRI/Mini-Authentication-System">
+<a href="https://github.com/CHANDINI-SIRI/Mini-Authentication-System" target="_blank">
 View Project on GitHub
 </a>
 
-</div>
+</section>
 
+<section>
 <h2>Skills</h2>
+<ul>
+<li>Java</li>
+<li>Data Structures</li>
+<li>Object Oriented Programming</li>
+<li>Git & GitHub</li>
+</ul>
+</section>
 
-<div class="skills">
-
-<div class="skill">Java</div>
-<div class="skill">Data Structures</div>
-<div class="skill">Object Oriented Programming</div>
-<div class="skill">Git & GitHub</div>
-
-</div>
-
+<section>
 <h2>Contact</h2>
-
-<div class="contact">
-
 <p>
 GitHub:
 <a href="https://github.com/CHANDINI-SIRI">
 github.com/CHANDINI-SIRI
 </a>
 </p>
+</section>
 
 </div>
 
-</section>
-
 <footer>
-
 <p>© 2026 Chandini Siri</p>
-
 </footer>
 
 </body>
-
-</html> 
+</html>
